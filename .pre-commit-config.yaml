@@ -1,0 +1,6 @@
+---
+repos:
+- repo: git@github.com:snowflakedb/casec_precommit.git
+  rev: v1.5
+  hooks:
+  - id: k8s-secret-scanner
