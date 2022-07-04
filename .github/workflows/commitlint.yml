@@ -11,4 +11,4 @@ jobs:
         with:
           fetch-depth: 0
       - run: echo "module.exports = {plugins:['commitlint-plugin-jira-rules'],extends:['jira'],rules:{'jira-task-id-max-length':[2,'always',15],'header-max-length':[2,'always',120]}};" > commitlint.config.js
-      - uses: wagoid/commitlint-github-action@ca212b3558faa549515a96944595cad58a40e047
+      - uses: wagoid/commitlint-github-action@4caf21aed4a778f940d0b17eb109942ef167bb27
